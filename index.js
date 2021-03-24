@@ -82,14 +82,18 @@ function display(humanImage, badImage, finalMessage){
 	var botDiv = document.createElement('div');
 	var messageDiv = document.createElement('div');
 
-	humanDiv.innerHTML = "<img src = '" + imageDb[humanImage] + "' height: 150 width: 150 >"
+	humanDiv.innerHTML = "<img src = '" + imageDb[humanImage] + "' height: 150 width: 150 style='box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);' >"
 
-	messageDiv.innerHTML = "<h1 style' color : " + finalMessage['color'] + "; font-size : 60px padding: 30px '>" + finalMessage['message'] + "</h1>"
+	messageDiv.innerHTML = "<h1 style' color : " + finalMessage['color'] + "; font-size : 60px margin: 120px padding: 30px '>" + finalMessage['message'] + "</h1>"
 
-	botDiv.innerHTML = "<img src = '" + imageDb[badImage] + "' height: 50 width: 50 >"
+	botDiv.innerHTML = "<img src = '" + imageDb[badImage] + "' height: 50 width: 50 style='box-shadow: 5px 4px 5px rgba(68, 38, 98, 0.6);' >"
 
 	document.getElementById('cat-gen').appendChild(humanDiv);
 	document.getElementById('cat-gen').appendChild(messageDiv);
 
 	document.getElementById('cat-gen').appendChild(botDiv);
 }
+
+function refresh(){
+        window.location.reload("Refresh")
+      }

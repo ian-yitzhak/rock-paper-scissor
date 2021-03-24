@@ -18,14 +18,14 @@
 
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
+ 
   justify-content: space-around;
   
 
 }
 .container_2 img{
-  width: 330px;
-  height:330px;
+  width: 230px;
+  height:230px;
   border: 1px solid green;
   margin: 20px;
   padding: 10px;
