@@ -32,6 +32,10 @@
 }
 
 .container_2 img:hover{
-  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: -5px -10px 5px rgba(8, 68, 68, 0.6);
   
+}
+
+h3{
+  color: blue;
 }
