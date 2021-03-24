@@ -1,0 +1,37 @@
+.comp{
+
+  padding: 30px;
+  width: 75%;
+  text-align: center;
+}
+.btn{
+  margin: 30px;
+}
+.container{
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid blue;
+  padding: 10px;
+
+}
+.container_2{
+
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  justify-content: space-around;
+  
+
+}
+.container_2 img{
+  width: 330px;
+  height:330px;
+  border: 1px solid green;
+  margin: 20px;
+  padding: 10px;
+}
+
+.container_2 img:hover{
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  
+}
